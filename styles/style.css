@@ -1,0 +1,96 @@
+/*Style de la barre de navigation*/
+html{
+    overflow : scroll;
+}
+.navbar {
+    padding: 5px;
+    background: white;
+    border: none;
+    
+}
+
+.navbar .container-fluid .collapse a {
+    background: white !important;
+    color: black !important;
+    margin: 8px
+}
+
+.navbar .container-fluid .collapse a:hover, .navbar .container-fluid .collapse .active a {
+    background: #11517a !important;
+    color: white !important;
+}
+
+/*Barre de navigation centrée*/
+.navbar .nav-pills {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.logo{
+    width: 300px;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}/*--centre--*/
+
+/*Contenu*/
+
+body {
+    color: #11517a !important;
+}
+
+p {
+    font-size: 15px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.bg-1 {
+    background: linear-gradient(white 54%, #f2f2f2 46%) !important;
+}
+
+.bg-2 {
+    background: #f2f2f2 !important;
+}
+
+/*Footer Pied de Page*/
+.bg-foot {
+    color: #a9a9a9 !important;
+}
+
+.majcv:hover{
+    text-decoration: blink; 
+}
+
+.progress-bar{
+    background-color: #49517a !important
+}
+
+.imgicon span {
+    visibility: hidden;
+}
+ 
+.imgicon img:hover + span {
+    visibility: visible;
+}
+
+.imgicon{
+	padding: 15px;
+}
+
